@@ -1,5 +1,6 @@
 import gql from "graphql-tag";
 
+/*
 export const POST_CREATE_MUTATION = gql`
     mutation PostCreate($input: CreateOneBlogPostInput!) {
         createOneBlogPost(input: $input) {
@@ -15,7 +16,9 @@ export const POST_CREATE_MUTATION = gql`
         }
     }
 `;
+*/
 
+/*
 export const POST_EDIT_MUTATION = gql`
     mutation PostEdit($input: UpdateOneBlogPostInput!) {
         updateOneBlogPost(input: $input) {
@@ -31,7 +34,9 @@ export const POST_EDIT_MUTATION = gql`
         }
     }
 `;
+*/
 
+/*
 export const POSTS_LIST_QUERY = gql`
     query BlogPostsList(
         $paging: OffsetPaging!
@@ -55,7 +60,9 @@ export const POSTS_LIST_QUERY = gql`
         }
     }
 `;
+*/
 
+/*
 export const POST_SHOW_QUERY = gql`
     query PostShow($id: ID!) {
         blogPost(id: $id) {
@@ -72,7 +79,9 @@ export const POST_SHOW_QUERY = gql`
         }
     }
 `;
+*/
 
+/*
 export const CATEGORIES_SELECT_QUERY = gql`
     query CategoriesSelect($filter: CategoryFilter!) {
         categories(filter: $filter) {
@@ -83,3 +92,4 @@ export const CATEGORIES_SELECT_QUERY = gql`
         }
     }
 `;
+*/

@@ -8,15 +8,19 @@ import {
 import { useOne, useShow } from "@refinedev/core";
 import { Typography } from "antd";
 import React from "react";
-    import { POST_SHOW_QUERY } from './queries'
+/*
+import { POST_SHOW_QUERY } from './queries'
+*/
 
 const { Title } = Typography;
 
 export const BlogPostShow = () => {
     const { queryResult } = useShow({
+        /*
         meta: {
             gqlQuery: POST_SHOW_QUERY,
         },
+        */
     });
     const { data, isLoading } = queryResult;
 

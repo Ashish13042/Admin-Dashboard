@@ -1,13 +1,17 @@
 import { Create, useForm } from "@refinedev/antd";
 import { Form, Input } from "antd";
 import React from "react";
-    import { CATEGORY_CREATE_MUTATION } from './queries'
+/*
+import { CATEGORY_CREATE_MUTATION } from './queries'
+*/
 
 export const CategoryCreate = () => {
     const { formProps, saveButtonProps } = useForm({
+        /*
         meta: {
             gqlMutation: CATEGORY_CREATE_MUTATION,
         },
+        */
     });
 
     return (

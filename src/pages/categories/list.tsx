@@ -8,15 +8,19 @@ import {
 import type { BaseRecord } from "@refinedev/core";
 import { Space, Table } from "antd";
 import React from "react";
-    import { CATEGORIES_LIST_QUERY } from './queries'
+/*
+import { CATEGORIES_LIST_QUERY } from './queries'
+*/
 
 
 export const CategoryList = () => {
     const { tableProps } = useTable({
         syncWithLocation: true,
+        /*
         meta: {
             gqlQuery: CATEGORIES_LIST_QUERY,
         },
+        */
     });
 
     return (

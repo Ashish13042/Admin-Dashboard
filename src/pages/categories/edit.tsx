@@ -1,14 +1,18 @@
 import { Edit, useForm } from "@refinedev/antd";
 import { Form, Input } from "antd";
 import React from "react";
-    import { CATEGORY_EDIT_MUTATION } from './queries'
+/*
+import { CATEGORY_EDIT_MUTATION } from './queries'
+*/
 
 
 export const CategoryEdit = () => {
     const { formProps, saveButtonProps } = useForm({
+        /*
         meta: {
             gqlMutation: CATEGORY_EDIT_MUTATION,
         },
+        */
     });
 
     return (

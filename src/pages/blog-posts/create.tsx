@@ -2,21 +2,27 @@ import { Create, useForm, useSelect } from "@refinedev/antd";
 import MDEditor from "@uiw/react-md-editor";
 import { Form, Input, Select } from "antd";
 import React from "react";
-    import { POST_CREATE_MUTATION, CATEGORIES_SELECT_QUERY } from './queries'
+/*
+import { POST_CREATE_MUTATION, CATEGORIES_SELECT_QUERY } from './queries'
+*/
 
 export const BlogPostCreate = () => {
     const { formProps, saveButtonProps } = useForm({
+        /*
         meta: {
             gqlMutation: POST_CREATE_MUTATION,
         },
+        */
     });
 
 
     const { selectProps: categorySelectProps } = useSelect({
         resource: "categories",
+        /*
         meta: {
             gqlQuery: CATEGORIES_SELECT_QUERY,
         },
+        */
     });
 
     return (

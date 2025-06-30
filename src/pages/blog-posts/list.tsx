@@ -10,14 +10,18 @@ import {
 import { type BaseRecord, useMany } from "@refinedev/core";
 import { Space, Table } from "antd";
 import React from "react";
-    import { POSTS_LIST_QUERY } from './queries'
+/*
+import { POSTS_LIST_QUERY } from './queries'
+*/
 
 export const BlogPostList = () => {
     const { tableProps } = useTable({
         syncWithLocation: true,
+        /*
         meta: {
             gqlQuery: POSTS_LIST_QUERY,
         },
+        */
     });
 
 

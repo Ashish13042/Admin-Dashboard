@@ -1,5 +1,6 @@
 import gql from "graphql-tag";
 
+/*
 export const CATEGORY_CREATE_MUTATION = gql`
     mutation CategoryCreate($input: CreateOneCategoryInput!) {
         createOneCategory(input: $input) {
@@ -8,7 +9,9 @@ export const CATEGORY_CREATE_MUTATION = gql`
         }
     }
 `;
+*/
 
+/*
 export const CATEGORY_EDIT_MUTATION = gql`
     mutation CategoryEdit($input: UpdateOneCategoryInput!) {
         updateOneCategory(input: $input) {
@@ -17,7 +20,9 @@ export const CATEGORY_EDIT_MUTATION = gql`
         }
     }
 `;
+*/
 
+/*
 export const CATEGORIES_LIST_QUERY = gql`
     query CategoriesList(
         $paging: OffsetPaging!
@@ -34,6 +39,8 @@ export const CATEGORIES_LIST_QUERY = gql`
         }
     }
 `;
+*/
+/*
 export const CATEGORY_SHOW_QUERY = gql`
     query CategoryShow($id: ID!) {
         category(id: $id) {
@@ -43,3 +50,4 @@ export const CATEGORY_SHOW_QUERY = gql`
         }
     }
 `;
+*/

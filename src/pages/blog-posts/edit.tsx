@@ -2,13 +2,17 @@ import { Edit, useForm, useSelect } from "@refinedev/antd";
 import MDEditor from "@uiw/react-md-editor";
 import { Form, Input, Select } from "antd";
 import React from "react";
-    import { POST_EDIT_MUTATION, CATEGORIES_SELECT_QUERY } from './queries'
+/*
+import { POST_EDIT_MUTATION, CATEGORIES_SELECT_QUERY } from './queries'
+*/
 
 export const BlogPostEdit = () => {
     const { formProps, saveButtonProps, queryResult, formLoading } = useForm({
+    /*
     meta: {
         gqlMutation: POST_EDIT_MUTATION,
     },
+    */
     });
 
     const blogPostsData = queryResult?.data?.data;
@@ -19,9 +23,11 @@ export const BlogPostEdit = () => {
     queryOptions: {
         enabled: !!blogPostsData?.category,
     },
+    /*
         meta: {
             gqlQuery: CATEGORIES_SELECT_QUERY,
         },
+    */
     });
 
     return (
