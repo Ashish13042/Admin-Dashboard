@@ -1,38 +1,48 @@
-# admin-dashboard
+# 📊 Admin Dashboard
 
-<div align="center" style="margin: 30px;">
-    <a href="https://refine.dev">
-    <img alt="refine logo" src="https://refine.ams3.cdn.digitaloceanspaces.com/readme/refine-readme-banner.png">
-    </a>
-</div>
-<br/>
+An advanced **Admin Dashboard** built with **React**, **Refine**, and **GraphQL**. This dashboard provides powerful tools for managing companies, contacts, tasks, and sales pipelines — complete with dynamic charts, drag-and-drop task boards, and easy data management.
+
+---
+
+## 🚀 Features
+
+- 🏢 **Company Management** — Add, edit, and delete company records with details like open deals and contacts.
+- 📇 **Contacts Management** — View and update contacts associated with each company.
+- 📅 **Tasks Board** — Visual Kanban-style drag-and-drop task management for easy tracking of work progress.
+- 📈 **Sales Pipeline & Charts** — Visual charts to track deals and pipeline performance over time.
+- 🗂️ **Latest Activities** — View a timeline of recent activities and updates.
+- 🔒 **Secure Authentication** *(optional if implemented)* — Protect admin data with secure login.
+
+---
+
+## 🛠️ Technologies Used
+
+- **Frontend:** React.js
+- **Framework:** Refine (headless React CRUD framework)
+- **API:** GraphQL
+- **State Management:** React Hooks
+- **UI:**Ant Design 
+- **Extra:** Drag & Drop functionality for tasks React DnD 
+
+---
+
+## 📸 Screenshots
+
+> Here are a few snapshots of the dashboard:
+
+
+---
+
+
 
 This [Refine](https://github.com/refinedev/refine) project was generated with [create refine-app](https://github.com/refinedev/refine/tree/master/packages/create-refine-app).
 
-## Getting Started
 
-A React Framework for building internal tools, admin panels, dashboards & B2B apps with unmatched flexibility ✨
+
 
 Refine's hooks and components simplifies the development process and eliminates the repetitive tasks by providing industry-standard solutions for crucial aspects of a project, including authentication, access control, routing, networking, state management, and i18n.
 
-## Available Scripts
 
-### Running the development server.
-
-```bash
-    npm run dev
-```
-
-### Building for production.
-
-```bash
-    npm run build
-```
-
-### Running the production server.
-
-```bash
-    npm run start
 ```
 
 ## Learn More
