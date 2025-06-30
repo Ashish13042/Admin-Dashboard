@@ -28,6 +28,3 @@ An advanced **Admin Dashboard** built with **React**, **Refine**, and **GraphQL*
 
 
 
-🎥 Credits
-This project was built by following a tutorial from JavaScriptMastery on YouTube https://www.youtube.com/@javascriptmastery.
-Special thanks for their high-quality and practical content! 🙏
