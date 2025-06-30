@@ -11,7 +11,7 @@ An advanced **Admin Dashboard** built with **React**, **Refine**, and **GraphQL*
 - 📅 **Tasks Board** — Visual Kanban-style drag-and-drop task management for easy tracking of work progress.
 - 📈 **Sales Pipeline & Charts** — Visual charts to track deals and pipeline performance over time.
 - 🗂️ **Latest Activities** — View a timeline of recent activities and updates.
-- 🔒 **Secure Authentication** *(optional if implemented)* — Protect admin data with secure login.
+- 🔒 **Secure Authentication** - Protect admin data with secure login.
 
 ---
 
