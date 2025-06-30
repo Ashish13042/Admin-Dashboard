@@ -26,9 +26,7 @@ An advanced **Admin Dashboard** built with **React**, **Refine**, and **GraphQL*
 
 ---
 
-## 📸 Screenshots
 
-> Here are a few snapshots of the dashboard:
 
 
 ---
@@ -58,3 +56,8 @@ To learn more about **Refine**, please check out the [Documentation](https://ref
 ## License
 
 MIT
+
+
+🎥 Credits
+This project was built by following a tutorial from JavaScriptMastery on YouTube.
+Special thanks for their high-quality and practical content! 🙏
